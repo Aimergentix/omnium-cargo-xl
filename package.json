@@ -1,0 +1,12 @@
+{
+  "name": "omnium-cargo-xl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Omnium Cargo Bike Mod & Sizing Guide",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp index.html dist/index.html && tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
