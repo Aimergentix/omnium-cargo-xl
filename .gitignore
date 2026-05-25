@@ -1,7 +1,18 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDEs and Editors
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local configuration / History
+.history/
+.gitsecret/
+
 #Cache folder
 .alcache/
 #Symbols folder
@@ -21,6 +32,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
 # Node / TypeScript
 node_modules/
 dist/
